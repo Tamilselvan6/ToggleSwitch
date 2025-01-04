@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Switch with Popup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>How do you want your project to be?</h1>
+    <div class="toggle-container">
+        <input type="checkbox" name="good" id="good" class="toggle">
+        <label for="good" class="label">
+            <div class="ball"></div>
+        </label>
+        <span>Good</span>
+    </div>
+    <div class="toggle-container">
+        <input type="checkbox" name="cheap" id="cheap" class="toggle">
+        <label for="cheap" class="label">
+            <div class="ball"></div>
+        </label>
+        <span>Cheap</span>
+    </div>
+    <div class="toggle-container">
+        <input type="checkbox" name="fast" id="fast" class="toggle">
+        <label for="fast" class="label">
+            <div class="ball"></div>
+        </label>
+        <span>Fast</span>
+    </div>
+    <div id="message" class="message">Do you want everything to be perfect? Then <a class="link" href="#"
+            onclick="showProfile()">Click Me</a></div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeProfile()">×</button>
+            <img src="https://media.licdn.com/dms/image/v2/D5635AQE1Y-r_awxERQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1735916042645?e=1736524800&v=beta&t=Qv2fl5PobiJ_QjtHe8LPuLvp9T-QR24UVCnO8Gwy_kc"
+                alt="Profile Picture">
+            <h2>Tamilselvan V</h2>
+            <p>Student of VCET | BE (Hons) | Passionate about Technology and its Impact | Building the Future with Code
+            </p>
+            <a href="https://www.linkedin.com/in/vtamilselvanbe/" target="_blank">Connect with Me on LinkedIn</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
