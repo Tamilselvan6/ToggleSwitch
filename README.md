@@ -14,7 +14,7 @@ An interactive toggle button interface built using HTML, CSS, and JavaScript tha
 
 ## Preview 👀  
 
-![Toggle Switch Interface Screenshot](path/to/your/screenshot.png)  
+![Toggle Switch Interface Screenshot](screenshot.png)  
 
 ---
 
